@@ -1,4 +1,5 @@
-// implementacja skryptów, KTÓRE TRZEBA WCZYTAĆ POPRZEZ NPM i import kodu z fetchCountries.js
+// implementacja css, skryptów, KTÓRE TRZEBA WCZYTAĆ POPRZEZ NPM i import kodu z fetchCountries.js
+import './styles.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import debounce from 'lodash.debounce';
 import { fetchCountries } from './fetchCountries';
